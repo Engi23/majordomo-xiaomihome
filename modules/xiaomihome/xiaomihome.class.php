@@ -61,7 +61,7 @@ class xiaomihome extends module
          $p["data_source"] = $this->data_source;
       }
       if (isset($this->tab)) {
-         $p["tab"] = $this->tab;
+         $p["tab"] = $this->tab; 
       }
       return parent::saveParams($p);
    }
